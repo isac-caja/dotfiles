@@ -1,3 +1,8 @@
+# My dotfiles
+
+Exclusive files to configure my local environment. There is commons utils files and scripts.
+
+
 ## topical
 
 Everything's built around topic areas. If you're adding a new area to your
@@ -19,7 +24,8 @@ There's a few special files in the hierarchy.
 
 - **bin/**: Anything in `bin/` will get added to your `$PATH` and be made
   available everywhere.
-- **Brewfile**: This is a list of applications for [Homebrew Cask](https://caskroom.github.io) to install: things like Chrome and 1Password and Adium and stuff. Might want to edit this file before running any initial setup.
+- **Brewfile**: This is a list of applications for [Homebrew Cask](https://caskroom.github.io) to install: things like Chrome and Pass and stuff. Might want to edit this file before running any initial setup.
+- **pass/secrets.symlink/**: Where I place my secrets (passwords). Sure, remove the files inside that. 
 - **topic/\*.zsh**: Any files ending in `.zsh` get loaded into your
   environment.
 - **topic/path.zsh**: Any file named `path.zsh` is loaded first and is
