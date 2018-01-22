@@ -58,7 +58,7 @@ I forked [Zach Holman](https://github.com/holman)' excellent
 If you're interested in the philosophy behind of dotfiles [read the
 post](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/) of Holman.
 
-And thanks to developers bellow for give me some hints.
+And thanks to developers bellow that gived to me some hints:
 
 * [Maba](https://github.com/guilhermemaba)
 * [Diego Oliveira](https://github.com/diegoholiveira)
