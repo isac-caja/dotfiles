@@ -30,7 +30,8 @@
         # Setting to git 2.0 default to suppress warning message
         default = simple
 [user]
-	name = Isac Caja
+	name = Isac Cajá
+	email = isacc@crewhu.com
 
 [url "ssh://git@github.com/"]
 	insteadOf = https://github.com/
