@@ -28,8 +28,10 @@ do
   source $file
 done
 
-# initialize autocomplete here, otherwise functions won't be loaded
-FPATH=$(brew --prefix)/share/zsh-completions:$(brew --prefix)/share/zsh/site-functions:$FPATH
+if type brew &>/dev/null; then
+  # initialize autocomplete here, otherwise functions won't be loaded
+  FPATH=$(brew --prefix)/share/zsh-completions:$(brew --prefix)/share/zsh/site-functions:$FPATH
+fi
 autoload -Uz compinit
 compinit -u
 
