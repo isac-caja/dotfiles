@@ -1,3 +1,5 @@
+# check if there is oh-my-zsh
+if [ -n "${ZSH_THEME}" ]; then; return ; fi;
 autoload colors && colors
 # cheers, @ehrenmurdick
 # http://github.com/ehrenmurdick/config/blob/master/zsh/prompt.zsh
